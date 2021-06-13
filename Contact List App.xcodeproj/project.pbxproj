@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		996A8F6326736C9A00B60EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F6226736C9A00B60EB8 /* AppDelegate.swift */; };
 		996A8F6526736C9A00B60EB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F6426736C9A00B60EB8 /* SceneDelegate.swift */; };
-		996A8F6726736C9A00B60EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F6626736C9A00B60EB8 /* ViewController.swift */; };
 		996A8F6A26736C9A00B60EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996A8F6826736C9A00B60EB8 /* Main.storyboard */; };
 		996A8F6C26736C9C00B60EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996A8F6B26736C9C00B60EB8 /* Assets.xcassets */; };
 		996A8F6F26736C9C00B60EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996A8F6D26736C9C00B60EB8 /* LaunchScreen.storyboard */; };
+		996A8F772675DF2D00B60EB8 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */; };
+		996A8F7B2675E14700B60EB8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F7A2675E14700B60EB8 /* Person.swift */; };
+		996A8F7D2675E18200B60EB8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F7C2675E18100B60EB8 /* DataManager.swift */; };
+		99E446342676099500FA4484 /* DetailContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E446332676099400FA4484 /* DetailContactListTableViewController.swift */; };
+		99E44636267623D600FA4484 /* InfoContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E44635267623D600FA4484 /* InfoContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		996A8F5F26736C9A00B60EB8 /* Contact List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		996A8F6226736C9A00B60EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		996A8F6426736C9A00B60EB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		996A8F6626736C9A00B60EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		996A8F6926736C9A00B60EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		996A8F6B26736C9C00B60EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996A8F6E26736C9C00B60EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996A8F7026736C9C00B60EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		996A8F7A2675E14700B60EB8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		996A8F7C2675E18100B60EB8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		99E446332676099400FA4484 /* DetailContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactListTableViewController.swift; sourceTree = "<group>"; };
+		99E44635267623D600FA4484 /* InfoContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				996A8F6226736C9A00B60EB8 /* AppDelegate.swift */,
 				996A8F6426736C9A00B60EB8 /* SceneDelegate.swift */,
-				996A8F6626736C9A00B60EB8 /* ViewController.swift */,
+				996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */,
+				99E446332676099400FA4484 /* DetailContactListTableViewController.swift */,
+				99E44635267623D600FA4484 /* InfoContactViewController.swift */,
 				996A8F6826736C9A00B60EB8 /* Main.storyboard */,
 				996A8F6B26736C9C00B60EB8 /* Assets.xcassets */,
 				996A8F6D26736C9C00B60EB8 /* LaunchScreen.storyboard */,
 				996A8F7026736C9C00B60EB8 /* Info.plist */,
+				996A8F7A2675E14700B60EB8 /* Person.swift */,
+				996A8F7C2675E18100B60EB8 /* DataManager.swift */,
 			);
 			path = "Contact List App";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996A8F6726736C9A00B60EB8 /* ViewController.swift in Sources */,
+				996A8F7B2675E14700B60EB8 /* Person.swift in Sources */,
+				996A8F7D2675E18200B60EB8 /* DataManager.swift in Sources */,
 				996A8F6326736C9A00B60EB8 /* AppDelegate.swift in Sources */,
+				996A8F772675DF2D00B60EB8 /* ContactListTableViewController.swift in Sources */,
 				996A8F6526736C9A00B60EB8 /* SceneDelegate.swift in Sources */,
+				99E446342676099500FA4484 /* DetailContactListTableViewController.swift in Sources */,
+				99E44636267623D600FA4484 /* InfoContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = "Contact List App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SD7LJ4VSJV;
 				INFOPLIST_FILE = "Contact List App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
