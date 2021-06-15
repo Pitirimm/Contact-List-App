@@ -12,7 +12,6 @@ class ContactListTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.rowHeight = 50
     }
 }

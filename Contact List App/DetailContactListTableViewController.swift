@@ -33,8 +33,10 @@ extension DetailContactListTableViewController {
         let contact = contactList[indexPath.section]
         
         if indexPath.row == 0 {
+            cell.imageView?.image = UIImage(systemName: "phone")
             cell.textLabel?.text = contact.phonePerson
         } else {
+            cell.imageView?.image = UIImage(systemName: "tray")
             cell.textLabel?.text = contact.emailPerson
         }
         

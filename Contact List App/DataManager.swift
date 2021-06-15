@@ -14,9 +14,25 @@ struct DataManager {
 
 extension DataManager {
     static func getData() -> DataManager {
-        DataManager(names: ["John", "Aaron", "Tim", "Ted", "Steven"],
-                    surnames: ["Smith", "Dow", "Isaacson", "Pennyworth", "Jankins"],
-                    phones: ["89211234567", "891122233444", "89997891234", "89064567234", "89056667564"],
-                    emails: ["shdfg@mail.ru", "eyr@gmail.com", "wdf@icloud.com", "cmnkj@yandex.ru", "nsb@rambler.ru"])
+        DataManager(names: ["John",
+                            "Aaron",
+                            "Tim",
+                            "Ted",
+                            "Steven"],
+                    surnames: ["Smith",
+                               "Dow",
+                               "Isaacson",
+                               "Pennyworth",
+                               "Jankins"],
+                    phones: ["89211234567",
+                             "891122233444",
+                             "89997891234",
+                             "89064567234",
+                             "89056667564"],
+                    emails: ["shdfg@mail.ru",
+                             "eyr@gmail.com",
+                             "wdf@icloud.com",
+                             "cmnkj@yandex.ru",
+                             "nsb@rambler.ru"])
     }
 }
