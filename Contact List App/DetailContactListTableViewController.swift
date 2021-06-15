@@ -12,7 +12,6 @@ class DetailContactListTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tableView.rowHeight = 50
     }
    
@@ -20,20 +19,24 @@ class DetailContactListTableViewController: UITableViewController {
 
 extension DetailContactListTableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
-        contactList.count
+        return contactList.count
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
+        return 2
     }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        ""
+        let person = contactList[section]
+        return "\(person.fullName)"
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailContactCell", for: indexPath)
-        let contact = contactList[indexPath.row]
-        var content = cell.defaultContentConfiguration()
-        content.text = contact.fullName
-        cell.contentConfiguration = content
+        let contact = contactList[indexPath.section]
+        
+        if indexPath.row == 0 {
+            cell.textLabel?.text = contact.phonePerson
+        } else {
+            cell.textLabel?.text = contact.emailPerson
+        }
         
         return cell
     }

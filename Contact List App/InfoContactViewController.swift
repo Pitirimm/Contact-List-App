@@ -11,17 +11,12 @@ class InfoContactViewController: UIViewController {
     @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
-    var person: Person?
+    var person: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        phoneLabel.text = person?.phonePerson
-        emailLabel.text = person?.emailPerson
-    }
+        phoneLabel.text = person.phonePerson
+        emailLabel.text = person.emailPerson
+        title = person.fullName
+        }
 }

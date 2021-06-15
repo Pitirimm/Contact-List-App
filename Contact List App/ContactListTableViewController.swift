@@ -16,14 +16,6 @@ class ContactListTableViewController: UITableViewController {
         tableView.rowHeight = 50
     }
 }
-//extension ContactListTableViewController {
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        tableView.deselectRow(at: indexPath, animated: true)
-//        let contact = contactList[indexPath.row]
-//
-//        performSegue(withIdentifier: "showDetails", sender: contact)
-//    }
-//}
 
 extension ContactListTableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -48,8 +40,7 @@ extension ContactListTableViewController {
               let indexPath = tableView.indexPathForSelectedRow
         else { return }
         
-        let person = contactList[indexPath.row]
-        infoVC.person = person
+        infoVC.person = contactList[indexPath.row]
     }
 }
  
