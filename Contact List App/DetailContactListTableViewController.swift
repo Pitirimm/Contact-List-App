@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailContactListTableViewController: UITableViewController {
-    let contactList = Person.getPerson()
+    var contactList: [Person] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +25,8 @@ extension DetailContactListTableViewController {
         return 2
     }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let person = contactList[section]
-        return "\(person.fullName)"
+        
+        return "\(contactList[section].fullName)"
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailContactCell", for: indexPath)

@@ -8,12 +8,9 @@
 import UIKit
 
 class ContactListTableViewController: UITableViewController {
-    let contactList = Person.getPerson()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.rowHeight = 50
-    }
+    //let contactList = Person.getPerson()
+    var contactList: [Person] = []
+  
 }
 
 extension ContactListTableViewController {
@@ -25,7 +22,7 @@ extension ContactListTableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath)
         let contact = contactList[indexPath.row]
         var content = cell.defaultContentConfiguration()
-        
+    
         content.text = contact.fullName
         cell.contentConfiguration = content
         

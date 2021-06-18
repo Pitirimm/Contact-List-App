@@ -15,6 +15,7 @@
 		996A8F772675DF2D00B60EB8 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */; };
 		996A8F7B2675E14700B60EB8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F7A2675E14700B60EB8 /* Person.swift */; };
 		996A8F7D2675E18200B60EB8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8F7C2675E18100B60EB8 /* DataManager.swift */; };
+		99B90E36267C7F8A0046487F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B90E35267C7F8A0046487F /* TabBarViewController.swift */; };
 		99E446342676099500FA4484 /* DetailContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E446332676099400FA4484 /* DetailContactListTableViewController.swift */; };
 		99E44636267623D600FA4484 /* InfoContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E44635267623D600FA4484 /* InfoContactViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
 		996A8F7A2675E14700B60EB8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		996A8F7C2675E18100B60EB8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		99B90E35267C7F8A0046487F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		99E446332676099400FA4484 /* DetailContactListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactListTableViewController.swift; sourceTree = "<group>"; };
 		99E44635267623D600FA4484 /* InfoContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 			children = (
 				996A8F6226736C9A00B60EB8 /* AppDelegate.swift */,
 				996A8F6426736C9A00B60EB8 /* SceneDelegate.swift */,
+				99B90E35267C7F8A0046487F /* TabBarViewController.swift */,
 				996A8F762675DF2D00B60EB8 /* ContactListTableViewController.swift */,
 				99E446332676099400FA4484 /* DetailContactListTableViewController.swift */,
 				99E44635267623D600FA4484 /* InfoContactViewController.swift */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B90E36267C7F8A0046487F /* TabBarViewController.swift in Sources */,
 				996A8F7B2675E14700B60EB8 /* Person.swift in Sources */,
 				996A8F7D2675E18200B60EB8 /* DataManager.swift in Sources */,
 				996A8F6326736C9A00B60EB8 /* AppDelegate.swift in Sources */,
